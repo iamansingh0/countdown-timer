@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/countdown-timer/street.jpg');
+    background-size: cover;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    color: white;
+}
+h1{
+    font-size: 4rem;
+    margin-top: -6rem;
+    font-weight: bold;
+    color: white;
+    border: 4px;
+    border-radius: 3px;
+}
+.countdown-container{
+    display: flex;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.el {
+    text-align: center;
+}
+.el span{
+    font-size: 1.5rem;
+}
